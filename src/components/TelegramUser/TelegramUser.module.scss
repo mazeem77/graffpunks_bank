@@ -1,0 +1,20 @@
+.loggedUser {
+  padding: 10px;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-self: center;
+}
+
+.userPhoto {
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.userLogoutButton {
+  padding: 10px 20px;
+  margin-left: 10px;
+}

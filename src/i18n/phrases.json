@@ -1,0 +1,62 @@
+{
+  "ru": {
+    "filter.categories.all": "Все категории",
+    "filter.levels.all": "Все уровни",
+    "filter.types.all": "Все типы",
+    "filter.features.all": "Без особенностей",
+    "filter.level": "уровень",
+    "filter.search": "Поиск по названию",
+
+    "menu.label.play": "Играть",
+    "menu.label.items": "Предметы",
+    "menu.label.dressingRoom" : "Примерочная",
+    "menu.label.heroes": "Герои",
+    "menu.label.clans": "Кланы",
+    "menu.label.games": "Бои",
+    "menu.label.chronicles": "Летопись",
+    "menu.label.library": "Библиотека",
+    "menu.label.terms": "Пользовательское соглашение",
+    "menu.label.gk": "короли граффити",
+    "menu.label.bank": "Банк",
+
+    "label.loading": "Загрузка...",
+    "label.development": "Раздел в разработке",
+    "label.empty": "Список пуст",
+    "label.team": "Команда",
+    "label.singleFights": "Одиночные",
+    "label.teamFights": "Командные",
+    "label.royalFights": "Хаотические",
+
+    "label.faceless": "👤 Безликий"
+  },
+  "en": {
+    "filter.categories.all": "All categories",
+    "filter.levels.all": "All levels",
+    "filter.types.all": "All types",
+    "filter.features.all": "No features",
+    "filter.level": "level",
+    "filter.search": "Search by name",
+
+    "menu.label.play": "Play",
+    "menu.label.items": "Items",
+    "menu.label.dressingRoom" : "Dressing room",
+    "menu.label.heroes": "Heroes",
+    "menu.label.clans": "Clans",
+    "menu.label.games": "Fights",
+    "menu.label.chronicles": "Chronicles",
+    "menu.label.library": "Library",
+    "menu.label.terms": "Terms and Conditions",
+    "menu.label.gk": "Graff Punks",
+    "menu.label.bank": "Bank",
+
+    "label.loading": "Loading...",
+    "label.development": "This page is under development",
+    "label.empty": "Empty list",
+    "label.team": "Team",
+    "label.singleFights": "Single fights",
+    "label.teamFights": "Team fights",
+    "label.royalFights": "Chaotic fights",
+
+    "label.faceless": "👤 Faceless"
+  }
+}

@@ -1,0 +1,14 @@
+@import 'src/assets/styles/abstracts/mixins';
+@import 'src/assets/styles/abstracts/variables';
+
+.loader {
+  width: 100%;
+  height: 100px;
+  color: #ff0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  font-family: $font-base;
+  letter-spacing: 0.065em;
+}

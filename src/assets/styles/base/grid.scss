@@ -1,0 +1,25 @@
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -10px;
+  justify-content: space-between;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-col {
+  flex: 1;
+  margin: 10px;
+  min-width: 240px;
+
+  &--25 {
+    max-width: 25%;
+  }
+
+  &--50 {
+    max-width: 50%;
+  }
+}

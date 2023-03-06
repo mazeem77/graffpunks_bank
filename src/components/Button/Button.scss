@@ -1,0 +1,28 @@
+@import 'src/assets/styles/abstracts/variables';
+
+.button {
+  color: #ff0;
+  cursor: pointer;
+  border-radius: 4px;
+  font-family: $font-base;
+  letter-spacing: 0.065em;
+  background: #140745;
+  box-shadow: $box-shadow-sm;
+  transition: $easing;
+
+  &__icon {
+    font-style: normal;
+  }
+
+  &__text {
+    white-space: nowrap;
+  }
+
+  &__icon + &__text {
+    margin-left: 10px;
+  }
+
+  &:hover {
+    background: #200e5f;
+  }
+}
