@@ -9,7 +9,7 @@ const sendMainMenu = ($, tx, options) => {
     [tx.labelArena]: $ => {
       $.emulateUpdate();
     },
-    [tx.labelTown]: $ => {
+    [tx.labelBank]: $ => {
       $.emulateUpdate();
     },
     [tx.labelHero]: $ => {
