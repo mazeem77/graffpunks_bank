@@ -44,28 +44,7 @@ class SettingsController extends Telegram.TelegramBaseController {
             const languageMenu = this.renderLanguageMenu($, character);
             query.update(languageMenu);
           }
-        },
-        // {
-        //   text: tx.labelChangeName,
-        //   callback: query => {
-        //     const nameMenu = this.renderNameMenu($, character);
-        //     query.update(nameMenu);
-        //   }
-        // },
-        // {
-        //   text: tx.labelResetCharacter,
-        //   callback: query => {
-        //     query.confirm({
-        //       message: tx.settingsResetQuestion,
-        //       acceptDelete: true,
-        //       accept: query => {
-        //         character.reset().then(() => {
-        //           query.answer(tx.settingsResetSuccess);
-        //         });
-        //       }
-        //     });
-        //   }
-        // }
+        }
       ]
     };
 

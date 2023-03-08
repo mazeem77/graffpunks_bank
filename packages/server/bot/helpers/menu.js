@@ -6,7 +6,6 @@ const sendMainMenu = ($, tx, options) => {
     layout: 2,
     message: options.message,
     resizeKeyboard: true,
-
     [tx.labelBank]: $ => {
       $.emulateUpdate();
     },
@@ -22,6 +21,84 @@ const sendMainMenu = ($, tx, options) => {
   };
 
   $.runMenu(mainMenu, options.imageId);
+};
+
+const sendHeroMenu = ($, tx, options) => {
+  const heroMenu = {
+    layout: 2,
+    message: options.message,
+    resizeKeyboard: true,
+    [tx.labelStats]: $ => {
+      $.emulateUpdate();
+    },
+    [tx.labelSkills]: $ => {
+      $.emulateUpdate();
+    },
+    [tx.labelProfile]: $ => {
+      $.emulateUpdate();
+    },
+    [tx.labelInventory]: $ => {
+      $.emulateUpdate();
+    },
+    [tx.labelMastery]: $ => {
+      $.emulateUpdate();
+    },
+    [tx.labelAnimal]: $ => {
+      $.emulateUpdate();
+    },
+    [tx.labelHeroAvatar]: $ => {
+      $.emulateUpdate();
+    },
+    [tx.labelAbilities]: $ => {
+      $.emulateUpdate();
+    },
+    [tx.labelBack]: $ => {
+      sendMainMenu($, tx, {
+        message: tx.mainMenuShortMessage
+      });
+    }
+  };
+
+  $.runMenu(heroMenu);
+};
+
+const sendTownMenu = ($, tx, options) => {
+  const townMenu = {
+    layout: 3,
+    message: options.message,
+    resizeKeyboard: true,
+    [tx.labelShop]: $ => {
+      $.emulateUpdate();
+    },
+    [tx.labelLottery]: $ => {
+      $.emulateUpdate();
+    },
+    [tx.labelAcademy]: $ => {
+      $.emulateUpdate();
+    },
+    [tx.labelTownhall]: $ => {
+      $.emulateUpdate();
+    },
+    [tx.labelTemple]: $ => {
+      $.emulateUpdate();
+    },
+    [tx.labelTavern]: $ => {
+      $.emulateUpdate();
+    },
+    [tx.labelAnimalsShop]: $ => {
+      $.emulateUpdate();
+    },
+    [tx.labelBank]: $ => {
+      $.emulateUpdate();
+    },
+    [tx.labelMenu]: $ => {
+      sendMainMenu($, tx, {
+        message: tx.mainMenuShortMessage
+      });
+    }
+  };
+
+  $.runMenu(townMenu, options.imageId);
 };
 
 const sendConfirmMenu = ($, tx, message, onAccept, onDecline) => {
