@@ -15,5 +15,9 @@ const agenda = new Agenda({
 
 agenda.define('bank_transaction', handleBankTransaction);
 
+agenda.on('ready', async () => {
+  await agenda.start();
+  await agenda.every('30 seconds', 'bank_transaction');
+});
 
 module.exports = agenda;
