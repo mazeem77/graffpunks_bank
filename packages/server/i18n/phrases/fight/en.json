@@ -1,0 +1,233 @@
+{
+  "lang": "en",
+  "labelYes": "Yes",
+  "labelNo": "No",
+  "labelCancel": "Cancel",
+  "labelBack": "⬅ Back",
+  "labelSurrender": "Surrender",
+  "labelExp": "exp.",
+  "labelRatingPoints": "rating",
+  "labelExpShort": "exp",
+  "labelRatingShort": "rtg",
+  "labelGoldShort": "g",
+  "labelDamageShort": "dmg",
+  "labelWon": "has won",
+  "labelLost": "has lost",
+  "labelSurrendered": "surrendered",
+  "labelLevelText": "lvl",
+  "labelTeam": "Team",
+  "labelTeamWon": "winners",
+  "labelTeamLost": "losers",
+  "labelTeamsFightJoin": "Join %{icon}",
+  "labelTeamsFightRefuse": "Left the team",
+  "labelFightEnable": "🔔 Enable turn messages",
+  "labelFightDisable": "🔕 Disable turn messages",
+  "labelFightCreate": "⚔ New fight",
+  "labelFightCreateMinutes": "Create (%{minutes} min)",
+  "labelFightRefuse": "Refuse",
+  "labelFightJoin": "Join",
+
+  "timeLeftToStart": "\n\n%{timeIcon} Fight starts in <b>%{timeLeft}...</b>",
+  "timeLeftToTurnEnd": "\n\n%{timeIcon} %{timeSeconds} seconds left...",
+
+  "fightSearchMessage": "🔍 Search for an opponent...\n\n❗The fight will begin automatically when a suitable opponent will be found.",
+  "fightReadyMessage": "<b>Opponent found!</b>\n\n%{opponentTag} is ready to fight with you.\n\n⏱ Your fight will begin in a few seconds...",
+  "fightStartedMessage": "<b>Fight started!</b>\n\n%{playerTag} and %{opponentTag} challenged each other.",
+  "fightCanceledMessage": "Fight canceled!",
+  "fightExistsMessage": "🚫 You're in a fight at the moment! Wait for the turn results.",
+  "fightFullMessage": "🚫 This fight is already started, you can create new fight using menu.",
+  "fightTurnMessagesDisabled": "🔕 You will not receive turn messages until the end of the fight.",
+  "fightTurnMessagesEnabled": "🔔 You will receive all turn results.",
+  "fightOpponentDead": "Your opponent is defeated, but the battle continues.\n\n<b>Whom to attack?</b>",
+  "fightPlayerDetails": "%{playerNumber}. %{playerTag} %{iconDead} %{iconSurrender}%{playerRewards}",
+  "fightTarget": "You're attacking — %{opponentTag}",
+  "fightTurnWaitingMessage": "Wait for the end of the turn...",
+  "fightPlayerDead": "You are defeated",
+  "fightPlayerSurrender": "You surrendered",
+  "fightPlayerFinished": "%{fightResult}. Waiting for the end of the battle... You are not allowed to leave the fight until it will be finished, but you will continue receive fight updates.",
+  "fightSurrenderQuestion": "Are you sure you want to surrender?",
+  "fightDefenseMenuQuestion": "Select defense area",
+  "fightAttackMenuQuestion": "Select attack area",
+  "fightFinishedMessage": "The fight is over!",
+  "fightFinishedDrawMessage": "Draw!",
+  "fightTurnFinishedMessage": "<b>Turn finished! (%{turnNumber})</b>",
+  "fightArenaBackMessage": "You returned to the main hall of the Arena",
+  "fightRefuseQuestion": "Are you sure you want to leave the fight and lose rating?",
+  "fightRefusedMessage": "You left this fight and lost <b>💯 %{refusePenalty} rating</b>",
+  "fightJoinMessage": "You've successfully applied for a fight, wait for the other players... %{refuseInfo}",
+  "fightRefuseMenuMessage": "Other players joining and preparing for the fight, wait for the start. %{refuseInfo}",
+  "fightCreatedMessage": "New fight was created, you can cancel it until someone has joined.",
+  "fightJoinQuestion": "After you join the fight you will be able to leave with rating penalty only <b>💯 -%{refusePenalty}</b>",
+  "fightRefuseInfo": "If you will leave the fight, you will lose <b>💯 %{refusePenalty} rating</b>",
+
+  "teamFightStartedMessage": "<b>Team fight has begun!</b>\n\nYour teammates rushed into the attack, by the will of fate your nearest enemy was — %{opponentTag}",
+  "teamFightSelectMessage": "Choose your team!",
+  "teamFightEmptyMessage": "You've entered to the team fights hall!\n\nThere are no active battles at the moment, but you can create a new fight.",
+  "teamFightPendingMessage": "The next team fight is going to start soon, there are the players of the two teams listed below.\n\n%{fightTeams}",
+
+  "royalFightStartedMessage": "<b>Chaotic fight has begun!</b>\n\nBy the will of fate your nearest enemy was — %{opponentTag}",
+  "royalFightInfoMessage": "You entered to the chaotic fights hall!\n\n<b>💀 Chaotic fight</b> — new fight mode, where every fighter can rely only on his own mastery. The winner will take everything, the losers will leave with nothing.\n\n%{fightStatus}",
+  "royalFightFoundMessage": "<b>Chaotic fight found!</b>\n\n%{fightStatus}",
+  "royalFightEmptyMessage": "There are no active battles at the moment. Your can <b>create a new</b> chaotic fight, selecting a time to start, or <b>wait</b> until a suitable fight will be found automatically.\n\n<b>🔍 Searching for a suitable fight....</b>",
+  "royalFightPendingMessage": "<b>Chaotic fight found — (%{playersCount}/%{playersMax})</b>\n\n%{fightPlayers}%{timeLeftToStart}",
+
+  "attackAreaHead": "Head",
+  "attackAreaBody": "Chest",
+  "attackAreaStomach": "Stomach",
+  "attackAreaLegs": "Legs",
+  "attackAreaAnimal": "Attack the beast",
+
+  "defenseAreaHeadBody": "Head and Chest",
+  "defenseAreaBodyStomach": "Chest and Stomach",
+  "defenseAreaStomachLegs": "Stomach and Legs",
+  "defenseAreaLegsHead": "Legs and Head",
+
+  "defenseAreaHead": "Head",
+  "defenseAreaBody": "Chest",
+  "defenseAreaStomach": "Stomach",
+  "defenseAreaLegs": "Legs",
+
+  "attackLabelsHead": ["to the head", "to the eye", "to the forehead", "to the nose", "into the nose", "to the ear", "in the throat"],
+  "attackLabelsBody": ["to the chest", "to the body", "to the right shoulder", "to the left shoulder"],
+  "attackLabelsStomach": ["right in the stomach", "to the stomach", "in the belly", "in the solar plexus" ],
+  "attackLabelsLegs": ["to the legs", "to the right leg", "to the left leg", "in the knee", "to the ankle"],
+  "attackLabelsAnimal": ["enemy's beast", "to the beast", "to the enemy's pet"],
+
+  "fightHitLabels": [
+    "hit %{opponentTag} <b>%{attack}</b>",
+    "hit %{opponentTag} <b>%{attack}</b>",
+    "punched %{opponentTag} <b>%{attack}</b>",
+    "tried to hit %{opponentTag} <b>%{attack}</b>",
+    "tried to punch %{opponentTag} <b>%{attack}</b>",
+    "kicked %{opponentTag} <b>%{attack}</b>",
+    "slapped %{opponentTag} <b>%{attack}</b>",
+    "was about to hit %{opponentTag} <b>%{attack}</b>",
+    "recovered, then was about to hit %{opponentTag} <b>%{attack}</b>",
+    "struck %{opponentTag} <b>%{attack}</b>",
+    "slightly staggered, but hit %{opponentTag} <b>%{attack}</b>",
+    "hit hard %{opponentTag} <b>%{attack}</b>",
+    "punched hard %{opponentTag} <b>%{attack}</b>",
+    "furiously hit %{opponentTag} <b>%{attack}</b>"
+  ],
+
+  "fightHitBlockedLabels": [
+    "was trying to hit %{opponentTag} <b>%{attack}</b>, but the opponent <b>blocked</b> this lunge",
+    "was going to punch %{opponentTag} <b>%{attack}</b>, but the opponent <b>blocked</b> this hit",
+    "swung to strike %{opponentTag} <b>%{attack}</b>, but the opponent <b>blocked</b> this hit",
+    "wanted to punch %{opponentTag} <b>%{attack}</b>, but hit was <b>blocked</b>",
+    "wanted to hit %{opponentTag} <b>%{attack}</b>, but attack was <b>blocked</b>",
+    "swung and wanted to punch %{opponentTag} <b>%{attack}</b>, but attack was <b>blocked</b>",
+    "was going to hit %{opponentTag} <b>%{attack}</b>, but attack was <b>blocked</b>",
+    "was distracted for a moment, because of what attack %{opponentTag} <b>%{attack}</b> was <b>blocked</b> by the opponent"
+  ],
+
+  "fightHitMissedLabels": [
+    "was trying to hit %{opponentTag} <b>%{attack}</b>, but the opponent <b>dodged</b> from lunge",
+    "was trying to punch %{opponentTag} <b>%{attack}</b>, but the opponent <b>dodged</b> from the hit",
+    "swung to strike %{opponentTag} <b>%{attack}</b>, but the opponent <b>dodged</b> from hit",
+    "wanted to hit %{opponentTag} <b>%{attack}</b>, but attack was <b>avoided by dodge</b>",
+    "swung and wanted to punch %{opponentTag} <b>%{attack}</b>, but attack was <b>dodged</b>",
+    "was going to hit %{opponentTag} <b>%{attack}</b>, but attack was <b>swerved</b>"
+  ],
+
+  "fightDamageLabels": [
+    "and deal <b>🗡%{damage}</b> damage",
+    "and was able to deal <b>🗡%{damage}</b> damage"
+  ],
+
+  "fightDamageCriticalLabels": [
+    "and deal <i>🎯 critical</i> <b>🗡%{damage}</b> damage",
+    "was able to deal <i>🎯 critical</i> <b>🗡%{damage}</b> damage"
+  ],
+
+  "fightDamageCriticalBlockedLabels": [
+    "and deal <i>🎯 critical</i> <b>🗡%{damage}</b> damage, through the enemy's block",
+    "and deal <i>🎯 critical</i> <b>🗡%{damage}</b> damage, through the opponent's block",
+    "and deal <i>🎯 critical</i> <b>🗡%{damage}</b> damage, through the block"
+  ],
+
+  "fightDodgeLabels": [
+    "At the same time <i>⚡ dodged</i> from the enemy's hit",
+    "At the same moment <i>⚡ dodged</i> from the punch",
+    "But was able to <i>⚡ dodge</i> from hit"
+  ],
+
+  "fightDodgeCounterLabels": [
+    "At the same time <i>⚡ dodged</i> from the enemy's hit and deal <i>🐍 counter</i> <b>🗡%{damage}</b> damage",
+    "At the same moment <i>⚡ dodged</i> from the punch and was able to deal <i>🐍 counter</i> <b>🗡%{damage}</b> damage",
+    "But was able to <i>⚡ dodge</i> from hit and deal <i>🐍 counter</i> <b>🗡%{damage}</b> damage"
+  ],
+
+  "fightAnimalKillLabels": [
+    ", and <b>stunned</b> enemy's beast",
+    ", and <b>stunned</b> the beast",
+    "and was able to <b>stun</b> opponent's beast",
+    "and was able to <b>stun</b> the beast",
+    "and was able to <b>knock out</b> the beast",
+    "and <b>knocked out</b> enemy's beast"
+  ],
+
+  "fightKillLabels": [
+    ", and <b>🤕 stunned</b> enemy",
+    ", and <b>🤕 knocked out</b> enemy",
+    " and was able to <b>🤕 knock enemy out</b>"
+  ],
+
+  "animalAttackLabelsHead": ["enemy's ear", "opponent's neck", "opponent's head"],
+  "animalAttackLabelsBody": ["shoulder", "right hand", "left hand"],
+  "animalAttackLabelsStomach": ["stomach", "belly"],
+  "animalAttackLabelsLegs": ["leg", "right leg", "left leg", "knee", "ankle"],
+  "animalAttackLabelsAnimal": ["animal", "enemy's beast", "other beast", "enemy's pet", "other animal"],
+
+  "fightAnimalHitLabels": [
+    "Beast %{tag} was hit by paw to the <b>%{attack}</b> and deal <b>🗡%{damage}</b> damage%{deadLabel}",
+    "Furious beast %{tag} attacked to the <b>%{attack}</b> and deal <b>🗡%{damage}</b> damage%{deadLabel}"
+  ],
+
+  "fightAnimalDeadLabels": [
+    ", at the same time, beast was <b>knocked out</b> by the enemy's hit and can't fight anymore",
+    ", but beast was <b>stunned</b> by the other hit and can't fight anymore"
+  ],
+
+  "fightAnimalDeadByAnimalLabels": [
+    ", at the same time, beast was <b>knocked out</b> by the other beast hit and can't fight anymore",
+    ", but beast was <b>stunned</b> by the other beast hit and can't fight anymore"
+  ],
+
+  "fightCommentatorLabel": "Arena Roaster",
+  "fightCommentatorCommonPhrases": [
+    "Ooof, looks like  the plague would have been a better way to go than that one Steve…",
+    "Would you look at the warts on that wench… she really looks like she’s ready to spill the whole cauldron... if  you know what I mean",
+    "Maces Up.. here comes some busters from another kingdom... take some titles, slay later",
+    "Man ! That was one big a@& dragon… he really brought the heat",
+    "Clogged Vat ...... wash your torture gear .. try again",
+    "Magic Mike ? … more like magic mage ! Would you look at the moves on that guy",
+    "Not so fast!  Moms busts you sharpening your sword, try again squire",
+    "Oh man! … looks like you tripped over your spell bag and forgot your alchemy experiment was in there … you turned in to a toad .. Ribbit",
+    "Oi! Stop right there ! Busted by the kings guard.. banish yourself and try again",
+    "I don’t know how they do things on your side of the swamp Sire…  but that’s what we call a TKO.. Total Knight Off….  with his head…..! 💀",
+    "Bollocks! Some PUNKS took ya Dragon, fight again later",
+    "Looks like somebody went swimming up the river… better tell Polonius .. oh wait you cant he’s dead too.. !",
+    "Dont Fall off your battle boar! ….  Get Down! A cyclops tries to catch you .. run Forrest Run!"
+  ],
+
+  "fightCommentatorFinishPhrases": [
+    "See you in the next fight!",
+    "At least without severe injuries.",
+    "As they say - time heals ... and potions.",
+    "All right, put the stretcher.",
+    "Get and sign.",
+    "Until we meet again, friends!",
+    "He can no longer continue the fight, a victory!",
+    "Excellent fight, come again.",
+    "You know where to find me."
+  ],
+
+  "fightCommentatorDrawPhrases": [
+    "They will remember each other to meet again",
+    "Opponents were worthy of each other! No one's fair",
+    "Draw! And this means - no one is being executed today",
+    "I do not know any good sayings about a draw",
+    "It's okay, next time someone will be executed"
+  ]
+}
