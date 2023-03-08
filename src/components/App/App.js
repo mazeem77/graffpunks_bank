@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import { Footer } from 'components';
-// import { Header, Footer } from 'components';
+import { Header } from 'components';
 import { I18nProvider } from 'i18n';
 import { AppStateProvider } from '../AppStateProvider';
 import './App.scss';
@@ -15,7 +15,7 @@ function App () {
       <I18nProvider>
         <AppStateProvider>
           <div className='app-container'>
-            {/* <Header /> */}
+            <Header />
 
             <main className='main'>
               <Switch>

@@ -12,6 +12,11 @@ function Header () {
     <header className='header'>
       <nav className='header__menu'>
         <div className='header__menu-item'>
+          <a href={process.env.REACT_APP_BOT_URL} target='_blank' rel='noopener noreferrer'>
+            <Button icon='🎮'>{t('menu.label.play')}</Button>
+          </a>
+        </div>
+        <div className='header__menu-item'>
           <Link to='/'>
             <Button icon='💰'>{t('menu.label.bank')}</Button>
           </Link>
