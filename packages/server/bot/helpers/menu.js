@@ -6,22 +6,8 @@ const sendMainMenu = ($, tx, options) => {
     layout: 2,
     message: options.message,
     resizeKeyboard: true,
-    [tx.labelArena]: $ => {
-      $.emulateUpdate();
-    },
+
     [tx.labelBank]: $ => {
-      $.emulateUpdate();
-    },
-    [tx.labelHero]: $ => {
-      $.emulateUpdate();
-    },
-    [tx.labelClan]: $ => {
-      $.emulateUpdate();
-    },
-    [tx.labelLeagues]: $ => {
-      $.emulateUpdate();
-    },
-    [tx.labelChronicles]: $ => {
       $.emulateUpdate();
     },
     [tx.labelHelp]: $ => {
@@ -31,12 +17,6 @@ const sendMainMenu = ($, tx, options) => {
       $.emulateUpdate();
     },
     [tx.labelGK]: $ => {
-      $.emulateUpdate();
-    },
-    [tx.labelDelete]: $ => {
-      $.emulateUpdate();
-    },
-    [tx.labelFacelessReset]: $ => {
       $.emulateUpdate();
     }
   };
