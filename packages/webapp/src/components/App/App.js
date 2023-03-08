@@ -29,7 +29,7 @@ function App () {
               </Switch>
             </main>
 
-            <Footer />
+            {/* <Footer /> */}
           </div>
         </AppStateProvider>
       </I18nProvider>
