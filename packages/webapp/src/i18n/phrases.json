@@ -7,7 +7,7 @@
     "filter.level": "уровень",
     "filter.search": "Поиск по названию",
 
-    "menu.label.play": "Играть",
+    "menu.label.play": "Дом",
     "menu.label.items": "Предметы",
     "menu.label.dressingRoom" : "Примерочная",
     "menu.label.heroes": "Герои",
@@ -37,7 +37,7 @@
     "filter.level": "level",
     "filter.search": "Search by name",
 
-    "menu.label.play": "Play",
+    "menu.label.play": "Home",
     "menu.label.items": "Items",
     "menu.label.dressingRoom" : "Dressing room",
     "menu.label.heroes": "Heroes",
