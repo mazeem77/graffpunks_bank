@@ -27,7 +27,7 @@ class BankController extends Telegram.TelegramBaseController {
       menu: [
         {
           text: tx.labelBuyTokens,
-          url: `${config.WEB_URL_BANK}/bank`
+          url: `${config.WEB_URL}`
         },
         {
           text: tx.labelWithdrawTokens,
