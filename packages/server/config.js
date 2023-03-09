@@ -6,6 +6,7 @@ module.exports = {
   API_TOKEN: process.env.API_TOKEN,
 
   WEB_URL: process.env.WEB_URL,
+  WEB_URL_BANK: process.env.WEB_URL_BANK,
 
   ENV: process.env.NODE_ENV,
   BOT_ENV: process.env.BOT_ENV,
