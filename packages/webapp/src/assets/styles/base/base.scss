@@ -29,10 +29,9 @@ html * {
 body {
   font-family: $font-monospace;
   background: #352e50;
-  background-image: url('../../../../public/images/bank1.jpeg');
   background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center;
+  background-size: 70%;
+  background-position: top;
 }
 
 button,
@@ -100,8 +99,20 @@ ul li {
   outline: none !important;
 }
 
-// @media only screen and (max-width: 430px) {
-//   body {
-//     background-size: contain;
-//   }
-// }
+@media only screen and (min-height: 801px)  and (max-height: 1010px) {
+  body {
+    background-image: url('../../../../public/images/bank1.jpeg');
+    background-repeat: no-repeat;
+    background-size: 70%;
+  }
+}
+
+@media only screen and (min-height: 700px) and (max-height: 800px) {
+  body {
+    background-image: url('../../../../public/images/bank3.jpeg');
+    background-repeat: no-repeat;
+    background-size: 70%;
+  }
+}
+
+

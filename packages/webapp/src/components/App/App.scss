@@ -8,3 +8,32 @@
   position: relative;
   margin: 15px 0;
 }
+
+.footer-visible {
+  visibility: hidden;
+}
+
+.header-style {
+  max-width: 950px;
+  margin: auto;
+}
+
+@media only screen and (max-height: 700px) {
+  .app-container {
+    min-height: 100vh;
+    border: 2px dotted #ff0;
+  }
+  .footer-visible {
+    visibility: visible;
+  }
+}
+
+@media only screen and (min-height: 1010px) {
+  .app-container {
+    min-height: 100vh;
+    border: 2px dotted #ff0;
+  }
+  .footer-visible {
+    visibility: visible;
+  }
+}

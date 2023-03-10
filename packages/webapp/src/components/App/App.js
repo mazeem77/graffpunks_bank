@@ -15,7 +15,9 @@ function App () {
       <I18nProvider>
         <AppStateProvider>
           <div className='app-container'>
-            <Header />
+            <div className='header-style'>
+              <Header />
+            </div>
 
             <main className='main'>
               <Switch>
@@ -28,8 +30,9 @@ function App () {
                 </Route>
               </Switch>
             </main>
-
-            {/* <Footer /> */}
+            <div className='footer-visible'>
+              <Footer />
+            </div>
           </div>
         </AppStateProvider>
       </I18nProvider>
