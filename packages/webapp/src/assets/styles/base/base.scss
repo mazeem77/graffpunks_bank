@@ -30,7 +30,7 @@ body {
   font-family: $font-monospace;
   background: #352e50;
   background-repeat: no-repeat;
-  background-size: 70%;
+  background-size: 100%;
   background-position: top;
 }
 
@@ -40,7 +40,7 @@ optgroup,
 select,
 textarea {
   font-family: $font-monospace;
-}
+}z
 
 /**
  * Removes the default spacing and border for appropriate elements.
